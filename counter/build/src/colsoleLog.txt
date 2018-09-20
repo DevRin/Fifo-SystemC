@@ -1,0 +1,1035 @@
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 46
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 46 whereas next element was 46
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+
+Info: (I702) default timescale unit used for tracing: 1 ps (FIFO.vcd)
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 46 has been read.
+flags have been set to false 1 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 55
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 55 whereas next element was 55
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 12
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is
+55 ,12 ,
+Fifo updated to myFifo
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read successful. Fifo not occupied.
+Going for NB read.
+element 55 has been read
+fifo is
+12 ,
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 2
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is
+12 ,2 ,
+Fifo updated to myFifo
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 12 has been read.
+2 ,
+flags have been set to false 1 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 46
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 46 whereas next element was 46
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 52
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 52
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 11
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is
+52 ,11 ,
+Fifo updated to myFifo
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 27
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB write completed
+fifo is
+52 ,11 ,27 ,
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read successful. Fifo not occupied.
+Going for NB read.
+element 52 has been read
+fifo is
+11 ,27 ,
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 11 has been read.
+27 ,
+flags have been set to false 1 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 7
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 7 whereas next element was 7
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 7 has been read.
+flags have been set to false 1 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 29
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 29 whereas next element was 29
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 29 has been read.
+flags have been set to false 1 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 16
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 16 whereas next element was 16
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 16 has been read.
+flags have been set to false 1 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 22
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 22
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read successful. Fifo not occupied.
+Going for NB read.
+element 22 has been read
+fifo is
+
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 21
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 21 whereas next element was 21
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read successful. Fifo not occupied.
+Going for NB read.
+element 21 has been read
+fifo is
+
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 44
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 44 whereas next element was 44
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 44 has been read.
+flags have been set to false 1 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 46
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 46 whereas next element was 46
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 20
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is
+46 ,20 ,
+Fifo updated to myFifo
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 33
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is
+46 ,20 ,33 ,
+Fifo updated to myFifo
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 46 has been read.
+20 ,33 ,
+flags have been set to false 1 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 1
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 5
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 5
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 5 has been read.
+flags have been set to false 1 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 9
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 9
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 17
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB write completed
+fifo is
+9 ,17 ,
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read successful. Fifo not occupied.
+Going for NB read.
+element 9 has been read
+fifo is
+17 ,
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+===================================================
+===================================================
+===================================================
+===================================================
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 50
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 50 whereas next element was 50
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 50 has been read.
+flags have been set to false 1 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 36
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 36 whereas next element was 36
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 36 has been read.
+flags have been set to false 1 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 8
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 8 whereas next element was 8
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read successful. Fifo not occupied.
+Going for NB read.
+element 8 has been read
+fifo is
+
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 11
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 11 whereas next element was 11
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read successful. Fifo not occupied.
+Going for NB read.
+element 11 has been read
+fifo is
+
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 48
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 48
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 48 has been read.
+flags have been set to false 1 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 6
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 6
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 6 has been read.
+flags have been set to false 1 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 47
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 47 whereas next element was 47
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 17
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is
+47 ,17 ,
+Fifo updated to myFifo
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 47 has been read.
+17 ,
+flags have been set to false 1 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 17 has been read.
+flags have been set to false 1 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 1
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 1
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 1 has been read.
+flags have been set to false 1 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 1
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 37
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 37
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 37 has been read.
+flags have been set to false 1 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 21
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 21
+===================================================
+reset triggered
+===================================================
+inside reset function. Resetting the values
+write_bNow flag is 0
+read_bNow flag is 0
+write_nbNow flag is 0
+fifoFlagRead flag is 0
+fifoFlagWrite flag is 0
+currentIndex is -1
+reset flag is 1
+Flags have been reset. Leaving reset function
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_nbNow triggered
+===================================================
+non-blocking Read - Cannot read. current index is -1 fifo flag is 1 read_nbNow.read() is 1
+===================================================
+read_nbNow.read() is now 0
+read_bNow.read() is now 0
+reset.read() is now 0
+fifoFlagRead.read() is now 0
+read_bNow triggered
+===================================================
+BlockingRead - Waiting
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_bNowOut triggered with 17
+===================================================
+Blocking write successful. Fifo not occupied.
+fifo is 17
+===================================================
+BlockingRead successful. Fifo not occupied.
+read done and 17 has been read.
+flags have been set to false 1 1
+===================================================
+Producer Waiting for Write flags
+write_nbNow.read() is now 0
+fifoFlagWrite is now 0
+write_bNow.read() is now 0
+write_nbNow triggered with value 6
+===================================================
+non-blocking write successful. Fifo not occupied.
+fifo flag is 1
+Trying to do NB write
+NB with with empty FIFO
+myFifo created
+myFifo set to element to be written, i.e. 6 whereas next element was 6
+NB write done
+fifoFlag and write_nbNow falgs set to False. 1 and 1
+===================================================
+
+

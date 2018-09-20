@@ -1,0 +1,206 @@
+$date
+     Sep 19, 2018       17:46:21
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- May  7 2018 11:10:10
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  write_bNow_sig       $end
+$var wire    1  aaaab  read_bNow_sig       $end
+$var wire    1  aaaac  write_nbNow_sig       $end
+$var wire    1  aaaad  read_nbNow_sig       $end
+$var wire    1  aaaae  reset_sig       $end
+$var wire    1  aaaaf  fifoFlagRead_sig       $end
+$var wire    1  aaaag  fifoFlagWrite_sig       $end
+$var wire   32  aaaah  nextElement_sig [31:0]  $end
+$var wire   32  aaaai  currentElement_sig [31:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+0aaaab
+0aaaac
+0aaaad
+0aaaae
+0aaaaf
+0aaaag
+b101110 aaaah
+b0 aaaai
+$end
+
+#3000
+b110111 aaaah
+
+#4000
+b1100 aaaah
+
+#6000
+b10 aaaah
+
+#10000
+b101110 aaaah
+
+#12000
+b110100 aaaah
+
+#13000
+b1011 aaaah
+
+#14000
+b11011 aaaah
+
+#18000
+1aaaab
+1aaaaf
+
+#19000
+0aaaab
+0aaaaf
+b111 aaaah
+
+#22000
+1aaaab
+1aaaaf
+
+#24000
+0aaaab
+0aaaaf
+b11101 aaaah
+
+#25000
+1aaaab
+1aaaaf
+
+#26000
+0aaaab
+0aaaaf
+b10000 aaaah
+
+#27000
+b10110 aaaah
+
+#29000
+b10101 aaaah
+
+#32000
+1aaaab
+1aaaaf
+
+#33000
+0aaaab
+0aaaaf
+b101100 aaaah
+
+#36000
+b101110 aaaah
+
+#37000
+b10100 aaaah
+
+#38000
+b100001 aaaah
+
+#41000
+b1 aaaah
+
+#45000
+1aaaab
+1aaaaf
+
+#46000
+0aaaab
+0aaaaf
+b101 aaaah
+
+#47000
+b1001 aaaah
+
+#48000
+b10001 aaaah
+
+#51000
+1aaaab
+1aaaaf
+
+#57000
+0aaaab
+0aaaaf
+b110010 aaaah
+
+#58000
+1aaaab
+1aaaaf
+
+#59000
+0aaaab
+0aaaaf
+b100100 aaaah
+
+#60000
+b1000 aaaah
+
+#62000
+b1011 aaaah
+
+#65000
+1aaaab
+1aaaaf
+
+#67000
+0aaaab
+0aaaaf
+b110000 aaaah
+
+#69000
+1aaaab
+1aaaaf
+
+#70000
+0aaaab
+0aaaaf
+b110 aaaah
+
+#76000
+b101111 aaaah
+
+#77000
+b10001 aaaah
+
+#80000
+1aaaab
+1aaaaf
+
+#82000
+0aaaab
+0aaaaf
+b1 aaaah
+
+#91000
+b100101 aaaah
+
+#93000
+b10101 aaaah
+
+#96000
+1aaaab
+1aaaaf
+
+#98000
+0aaaab
+0aaaaf
+b10001 aaaah
+
+#99000
+b110 aaaah
+

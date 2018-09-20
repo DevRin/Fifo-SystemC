@@ -1,0 +1,5 @@
+/home/n_shirali18/Desktop/counter/build/CMakeFiles/edit_cache.dir
+/home/n_shirali18/Desktop/counter/build/CMakeFiles/rebuild_cache.dir
+/home/n_shirali18/Desktop/counter/build/src/CMakeFiles/edit_cache.dir
+/home/n_shirali18/Desktop/counter/build/src/CMakeFiles/rebuild_cache.dir
+/home/n_shirali18/Desktop/counter/build/src/CMakeFiles/run.dir
