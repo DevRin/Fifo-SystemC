@@ -1,3 +1,0 @@
-/opt/vplab/examples/counter/src/CMakeFiles/edit_cache.dir
-/opt/vplab/examples/counter/src/CMakeFiles/rebuild_cache.dir
-/opt/vplab/examples/counter/src/CMakeFiles/run.dir

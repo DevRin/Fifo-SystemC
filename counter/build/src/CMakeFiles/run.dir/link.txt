@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/run.dir/main.cpp.o  -o run -rdynamic /opt/systemc/systemc-2.3.1/lib-linux64/libsystemc.so -Wl,-rpath,/opt/systemc/systemc-2.3.1/lib-linux64 
